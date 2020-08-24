@@ -1,0 +1,24 @@
+{
+  "name": "my-git",
+  "version": "1.0.0",
+  "description": "It is a test directory to learn Git and node",
+  "main": "myindex.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test":"echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mukit49/My-Git.git"
+  },
+  "author": "Mukit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mukit49/My-Git/issues"
+  },
+  "homepage": "https://github.com/Mukit49/My-Git#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
